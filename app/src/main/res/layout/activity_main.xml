@@ -13,41 +13,47 @@
     <TextView style="@style/TextViewTitle"
         android:text="@string/activity_main_title_label"
         android:id="@+id/textView"
-        android:layout_marginTop="18dp"/>
+        android:layout_marginTop="12dp"/>
 
     <Button style="@style/AppNameButton"
         android:text="@string/title_first_app"
         android:id="@+id/button"
+        android:onClick="didTapAppButton"
         android:layout_below="@+id/textView"
-        android:layout_marginTop="48dp" />
+        android:layout_marginTop="24dp" />
 
     <Button style="@style/AppNameButton"
         android:text="@string/title_second_app"
         android:id="@+id/button2"
+        android:onClick="didTapAppButton"
         android:layout_below="@+id/button"
         android:layout_marginTop="18dp" />
 
     <Button style="@style/AppNameButton"
         android:text="@string/title_third_app"
         android:id="@+id/button3"
+        android:onClick="didTapAppButton"
         android:layout_below="@+id/button2"
         android:layout_marginTop="18dp" />
 
     <Button style="@style/AppNameButton"
         android:text="@string/title_fourth_app"
         android:id="@+id/button4"
+        android:onClick="didTapAppButton"
         android:layout_below="@+id/button3"
         android:layout_marginTop="18dp" />
 
     <Button style="@style/AppNameButton"
         android:text="@string/title_fifth_app"
         android:id="@+id/button5"
+        android:onClick="didTapAppButton"
         android:layout_below="@+id/button4"
         android:layout_marginTop="18dp" />
 
     <Button style="@style/AppNameButton"
         android:text="@string/title_sixth_app"
         android:id="@+id/button6"
+        android:onClick="didTapAppButton"
         android:layout_below="@+id/button5"
         android:layout_marginTop="18dp"
         android:background="@color/colorSecondary"/>
